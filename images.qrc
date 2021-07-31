@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icone.png</file>
+        <file>Paramètres.png</file>
+        <file>Info.png</file>
+        <file>Imprimer.png</file>
+        <file>BaseDeDonnées.png</file>
+        <file>Configuration.png</file>
+        <file>Données.png</file>
+        <file>Impression.png</file>
+        <file>Information.png</file>
+        <file>RéassignementTerritoire.png</file>
+        <file>RentrerTerritoire.png</file>
+        <file>ChampDate.png</file>
+        <file>ChampNote.png</file>
+        <file>ChampNuméro.png</file>
+        <file>ChampPersonne.png</file>
+        <file>ChampOnglets.png</file>
+        <file>ChampListe.png</file>
+        <file>ChampBoutonsGestion.png</file>
+        <file>ChampCongrégation.png</file>
+        <file>ChampDuréeConservation.png</file>
+        <file>ChampDuréeSortie.png</file>
+        <file>ChampLangue.png</file>
+        <file>ChampDateDébut.png</file>
+        <file>ChampDateFin.png</file>
+    </qresource>
+</RCC>
