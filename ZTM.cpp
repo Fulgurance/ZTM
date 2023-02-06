@@ -119,7 +119,7 @@ namespace ZTM
    }
    data.append(territory);
   }
-  qSort(data);
+  std::sort(data.begin(),data.end());
   return data;
  }
 
@@ -135,7 +135,7 @@ namespace ZTM
    Permission permission = load_permission_data(file_name.toInt());
    data.append(permission);
   }
-  qSort(data);
+  std::sort(data.begin(),data.end());
   return data;
  }
 

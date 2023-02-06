@@ -88,20 +88,23 @@ void HelpBox::create_enter_button()
 
 void HelpBox::create_data_button()
 {
- data_button.setFixedSize(34,22);
+ data_button.setFixedSize(48,48);
  data_button.setIcon(QIcon(":BaseDeDonnées.png"));
+ data_button.setIconSize(QSize(48,48));
 }
 
 void HelpBox::create_settings_button()
 {
- settings_button.setFixedSize(34,22);
+ settings_button.setFixedSize(48,48);
  settings_button.setIcon(QIcon(":Paramètres.png"));
+ settings_button.setIconSize(QSize(48,48));
 }
 
 void HelpBox::create_print_button()
 {
- print_button.setFixedSize(34,22);
+ print_button.setFixedSize(48,48);
  print_button.setIcon(QIcon(":Imprimer.png"));
+ print_button.setIconSize(QSize(48,48));
 }
 
 void HelpBox::create_report_button()

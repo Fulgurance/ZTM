@@ -53,29 +53,33 @@ void MainWindow::create_enter_button()
 
 void MainWindow::create_data_button()
 {
- data_button.setFixedSize(34,22);
+ data_button.setFixedSize(48,48);//(34,22);
  data_button.setIcon(QIcon(":BaseDeDonnées.png"));
+ data_button.setIconSize(QSize(48,48));
  data_button.setToolTip("Editer la base de données");
 }
 
 void MainWindow::create_print_button()
 {
- print_button.setFixedSize(34,22);
+ print_button.setFixedSize(48,48);//(34,22);
  print_button.setIcon(QIcon(":Imprimer.png"));
+ print_button.setIconSize(QSize(48,48));
  print_button.setToolTip("Imprimer l'historique des territoires");
 }
 
 void MainWindow::create_settings_button()
 {
- settings_button.setFixedSize(34,22);
+ settings_button.setFixedSize(48,48);
  settings_button.setIcon(QIcon(":Paramètres.png"));
+ settings_button.setIconSize(QSize(48,48));
  settings_button.setToolTip("Paramètres d'utilisation du logiciel");
 }
 
 void MainWindow::create_info_button()
 {
- info_button.setFixedSize(34,22);
+ info_button.setFixedSize(48,48);
  info_button.setIcon(QIcon(":Info.png"));
+ info_button.setIconSize(QSize(48,48));
  info_button.setToolTip("Centre d'aide du logiciel");
 }
 

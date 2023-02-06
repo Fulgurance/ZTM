@@ -106,14 +106,14 @@ void DatabaseEditorBox::create_buttons()
 void DatabaseEditorBox::create_territory_list_box()
 {
  territory_list_box.setModel(&territory_modele);
- territory_list_box.setEditTriggers(0);
+ territory_list_box.setEditTriggers(QAbstractItemView::NoEditTriggers);
  territory_list_box.setSelectionMode(QAbstractItemView::ExtendedSelection);
 }
 
 void DatabaseEditorBox::create_people_list_box()
 {
  people_list_box.setModel(&people_modele);
- people_list_box.setEditTriggers(0);
+ people_list_box.setEditTriggers(QAbstractItemView::NoEditTriggers);
  people_list_box.setSelectionMode(QAbstractItemView::ExtendedSelection);
 }
 
