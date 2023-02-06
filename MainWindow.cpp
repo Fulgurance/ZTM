@@ -19,6 +19,7 @@ void MainWindow::initialize()
  setWindowIcon(QIcon(":Icone.png"));
  setWindowFlags(Qt::WindowMinimizeButtonHint | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
  setLayout(&layout);
+ setStyleSheet("background-color: #ffffff; color: #000000");
  initialize_pointers();
 }
 

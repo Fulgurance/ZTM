@@ -1,6 +1,6 @@
 #include <iostream>
 #include <QApplication>
-#include "MainWindow.h"
+#include "LoginWindow.h"
 #include "ZTM.h"
 
 using ZTM::create_database;
@@ -49,9 +49,7 @@ int main(int argc, char *argv[])
 {
  create_database();
  QApplication application(argc, argv);
- application.setStyle("fusion");
- MainWindow window;
- window.load_log();
- window.showMaximized();
+ LoginWindow login_window;
+ login_window.show();
  return application.exec();
 }

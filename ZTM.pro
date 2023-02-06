@@ -27,7 +27,8 @@ SOURCES += \
     HelpBox.cpp \
     TechnicalSupportBox.cpp \
     HelpButtonBox.cpp \
-    TerritoryShowBox.cpp
+    TerritoryShowBox.cpp \
+    LoginWindow.cpp
 
 HEADERS += \
     MainWindow.h \
@@ -53,7 +54,8 @@ HEADERS += \
     HelpBox.h \
     TechnicalSupportBox.h \
     HelpButtonBox.h \
-    TerritoryShowBox.h
+    TerritoryShowBox.h \
+    LoginWindow.h
 
 RESOURCES += \
     images.qrc
